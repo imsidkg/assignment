@@ -1,0 +1,62 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.thumbnail {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.category {
+  background: #f0f0f0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+}
+
+.excerpt {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.actions {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+.editButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.editButton:hover {
+  background: #0052a3;
+}
